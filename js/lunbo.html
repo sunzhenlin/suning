@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <style>
+            *{margin:0;
+                padding:0;
+                list-style:none;}
+            div{
+                width:830px;
+                height:420px;
+                border:1px solid #000;
+                margin:40px auto;
+                position:relative;
+                 overflow:hidden;
+            }
+            ul{
+                width:3320px;
+                height:420px;
+                position:absolute;
+                left:0;
+
+            }
+            li{
+                height:420px;
+                width:830px;
+                float:left;
+            }
+            img{
+                width:830px;
+                height:420px;
+
+            }
+        </style>
+    </head>
+    <body>
+    <div>
+        <ul id="ul">
+            <li><img src="1.jpg" alt=""> </li>
+            <li><img src="2.jpg" alt=""></li>
+            <li><img src="3.jpg" alt=""></li>
+            <li><img src="1.jpg" alt=""></li>
+        </ul>
+    </div>
+    <script>
+    var i=0;
+    setInterval(function(){
+        if(i>=3){
+            ul.style.left=0;
+            i=0;
+        }i++;
+        move(ul,"left",-600*i)
+    },2000)
+    
+    function move(ele,dir,end){
+        if(dir==="left"){
+            ele.timer=setInterval(function(){
+                ele.style.left=ele.offsetLeft-10+"px";
+                if(ele.offsetLeft<=end){
+                    ele.style.left=end+"px";
+                    clearInterval(ele.timer)
+                }
+            })
+        }else{
+             ele.timer=setInterval(function(){
+                ele.style.left=ele.offsetLeft+10+"px";
+                if(ele.offsetLeft>=end){
+                    ele.style.lrft=end+"px";
+                    clearInterval(ele.timer)
+                }
+            })
+        }
+    }
+    </script>
+    </body>
+</html>

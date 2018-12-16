@@ -1,0 +1,356 @@
+#head{
+    height:100px;
+    width:100%;
+    margin:0 auto;
+}
+
+
+header{
+    height:80px;
+    width:1004px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+header h1{
+    height:100px;
+    width:190px;
+    float:left;
+}
+header #hspan{
+    display:inline-block;
+    float:left;
+    height:22px;
+    width:794px;
+    text-align:center;
+    line-height:22px;
+    font-size:11px;
+    border:2px solid #fecd66;
+    margin-top:15px;
+    margin-left:15px;
+}
+header p{
+    float:right;
+    height:18px;
+    width:135px;
+    font-size:12px;
+    margin-top:5px;
+    background:#fefff1;
+
+}
+header p span{
+    font-size:12px;
+    height:18px;
+    float:left;
+    line-height:18px;
+    width:108px;
+}
+header p a{
+    color:#333333;
+}
+header p a:hover{
+    color:red;
+}
+header p img{
+    float:left;
+    margin-right:3px;
+}
+#banner{
+    height:570px;
+    width:100%;
+    background:url(../images/denglu.jpg) no-repeat center;
+    margin:0 auto;
+    
+}
+#bannerR{
+    height:570px;
+    width:1104px;
+    margin:0 auto;
+    position: relative;
+}
+#banner #banner1{
+    height:440px;
+    width:362px;
+    background:#fff;
+    position:absolute;
+    right:34px;
+    top:50px;
+}
+#banner #banner1 #DL_0{
+    height:48px;
+    width:362px;
+    float:left;
+    border-bottom:1px solid #ccc;
+    /*margin-bottom:48px;*/
+}
+#banner #banner1 #DL_0 #DL_1{
+    display:inline-block;
+    width:180px;
+    border-right:1px solid #ccc;
+    float:left;
+    height:46px;
+    text-align:center;
+    line-height:46px;
+    cursor:pointer;
+    border-bottom:2px solid #ff6600;
+    color:#ff6600;
+}
+#banner #banner1 #DL_0 #DL_2{
+     display:inline-block;
+    width:181px;
+    float:left;
+    height:46px;
+    text-align:center;
+    line-height:46px;
+    cursor:pointer;
+     border-bottom:2px solid #ff6600;
+    color:#ff6600;
+    border: none;
+}
+
+/*二维*/
+#er{
+    height:241px;
+    float:left;
+    width:362px;
+    margin-top:48px;
+    display:block;
+    position:relative;
+
+}
+#banner #banner1  #weima{
+    margin:0 auto;
+    margin-bottom:35px;
+    position:absolute;
+    left:100px;
+
+}
+#banner #banner1  #shouji{
+    position:absolute;
+    left:190px;
+    top:-30px;
+    display:none;
+}
+#banner #banner1  #weima:hover{
+    left:50px;
+    transition:0.5s;
+}
+#banner #banner1 #weima:hover #shouji{
+    display:block;
+    transition:0.5s;
+}
+
+#banner #banner1 p{
+    margin-top:220px;
+    margin-left:96px;
+    height:20px;
+    width:100%;
+    float:left;
+    margin-bottom:20px;
+    font-size:12px;
+}
+#banner #banner1 p a{
+    color:red;
+}
+#banner #banner1 #DL_3{
+    height:10px;
+    width:100%;
+    display:inline-block;
+    margin-left:129px;
+    font-size:12px;
+    margin-bottom:35px;
+}
+#xianL{
+    border:1px solid #ccc;
+    width:90px;
+    float:left;
+    margin-left:25px;
+    margin-top:6px;
+    background:#ccc;
+}
+#xianC{
+    width:96px;
+    height:12px;
+    float:left;
+    margin-left:14px;
+    margin-right:14px;
+    font-size:12px;
+    color:#999999;
+    margin-bottom:12px;
+}
+#xianR{
+    border:1px solid #ccc;
+    width:90px;
+    float:left;
+    margin-top:6px;
+    background:#ccc;
+}
+#banner1 ul{
+    width:340px;
+    height:16px;
+    float:left;
+    margin-left:13px;
+
+}
+#banner1 ul li{
+    float:left;
+    border-right:1px solid #999999;
+    line-height:16px;
+    height:16px;
+    width:60px;
+    font-size:11px;
+}
+#banner1 ul li img{
+    height:16px;
+    width:16px;
+    float:left;
+    margin-left:7px;
+    margin-right:5px;
+}
+#banner1 ul li:nth-of-type(3){
+    width:71px;
+}
+#banner1 ul li:nth-of-type(5){
+    width:71px;
+    border-right:none;
+    margin-left:7px;
+}
+#ZHMM{
+    height:281px;
+    width:362px;
+ /*   background:#ccc;*/
+    display: none;
+    margin-top:47px;
+}
+#ZH{
+    height:36px;
+    width:308px;
+    margin: 10px 0 20px 24px;
+}
+#MM{
+    height:36px;
+    width:308px;
+    margin-left:24px;
+    margin-bottom:10px;
+    background:;
+}
+#YZ{
+    height:38px;
+    width:308px;
+    margin-left:24px;
+    border:2px solid #c6d4f7;
+    background:#f3f3f3;
+    margin-bottom:10px;
+}
+#SJ{
+    height:16px;
+    width:312px;
+    float:left;
+    margin-left:24px;
+    margin-bottom:5px;
+
+}
+#SJ span:nth-of-type(1){
+    display:inline-block;
+    height:16px;
+    width:102px;
+    float:left;
+    font-size:12px;
+
+}
+#SJ span:nth-of-type(2){
+    display:inline-block;
+    height:16px;
+    width:65px;
+    float:right;
+    font-size:12px;
+}
+#YHDL{
+    height:40px;
+    width:308px;
+    background:#ff6600;
+    margin-left:24px;
+    border:none;
+    color:#fff;
+    font-weight:700;
+    font-size:19px;
+    margin-top:50px;
+    margin-bottom:10px;
+}
+#TS{
+    height:14px;
+    margin-top:2px;
+    width:308px;
+    margin-left:24px;
+    
+    float:left;
+}
+#TS1{
+    height:10px;
+    width:308px;
+     display:inline-block;
+    font-size:10px;
+    border:1px solid #ff6600;
+    line-height:10px;
+    color:red;
+    display:none;
+}
+.footerBottom{
+    width: 100%;
+    background: #fff;
+    height: 300px;
+    padding-top: 20px;
+}
+.footerBottomBx{
+    width: 1190px;
+    margin: 0 auto;
+    background: #fff;
+    text-align:center;
+}
+.footerBottomBx .dibudiyihang{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.footerBottomBx .dibudiyihang a{
+    color: #666;
+    font-size: 14px;
+}
+.footerBottomBx .dibudiyihang img{
+    height:9px;
+    padding-top:8px;
+    width:19px;
+    display:inline-block;
+}
+.footerBottomBx .dibuzuihou{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+}
+.footerBottomBx .dibuzuihou img{
+    padding-top:8px;
+    display:inline-block;
+    float: left;
+    height:9px;
+    width:19px;
+}
+.footerBottomBx .dibuzuihou a{
+    color: #999;
+    font-size: 12px;
+}
+.footerBtmImg{
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 8px;
+
+}
+.footerBtmImg a{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+
